@@ -17,3 +17,12 @@ class RenderSpinner {
   }
 }
 export default RenderSpinner;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const lang = document.documentElement.lang;
+  if (lang === "ar") {
+    document.querySelector(".lang-ar").style.display = "inline-block";
+  } else {
+    document.querySelector(".lang-en").style.display = "inline-block";
+  }
+});
