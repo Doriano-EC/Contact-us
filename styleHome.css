@@ -89,7 +89,7 @@ body {
 }
 @media (max-width: 1000px) {
   body {
-    height: auto;
+    height: auto !important;
     background-size: auto;
   }
   .contentCard {
